@@ -10,6 +10,7 @@
     enter to Apache instance and install mysqli with this command:
 ```
 - ```docker-php-ext-install mysqli && docker-php-ext-enable mysqli && apachectl restart```
+- Connect to db from mysqli use the docker network ip
 
 ## Uninstall
 - ```dump all database and generate .sql files```
